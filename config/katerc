@@ -1,0 +1,232 @@
+[FileDialogSize]
+2 screens: Height=608
+2 screens: Width=971
+
+[General]
+Days Meta Infos=30
+Save Meta Infos=true
+Show Full Path in Title=false
+Show Menu Bar=true
+Show Status Bar=true
+Show Tab Bar=true
+Show Url Nav Bar=true
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Camel Cursor=true
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=10000
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=1
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO 8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Breeze Dark
+Font=JetBrainsMono Nerd Font,12,-1,5,50,0,0,0,0,0
+Line Height Multiplier=1
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Text Font=JetBrainsMono Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=true
+Auto Center Lines=0
+Auto Completion=true
+Auto Completion Preselect First Entry=true
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Bracket Match Preview=false
+Chars To Enclose Selection=<>(){}[]'"
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Dynamic Wrap not at word boundaries=false
+Enable Accessibility=true
+Enable Tab completion=false
+Enter To Insert Completion=true
+Fold First Line=false
+Folding Bar=true
+Folding Preview=true
+Icon Bar=false
+Input Mode=0
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Max Clipboard History Entries=20
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Multiple Cursor Modifier=134217728
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=true
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=141
+Shoe Line Ending Type in Statusbar=false
+Show Documentation With Completion=true
+Show File Encoding=true
+Show Focus Frame Around Editor=true
+Show Folding Icons On Hover Only=true
+Show Line Count=false
+Show Scrollbars=0
+Show Statusbar Dictionary=true
+Show Statusbar Highlighting Mode=true
+Show Statusbar Input Mode=true
+Show Statusbar Line Column=true
+Show Statusbar Tab Settings=true
+Show Word Count=false
+Smart Copy Cut=true
+Statusbar Line Column Compact Mode=true
+Text Drag And Drop=true
+User Sets Of Chars To Enclose Selection=
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KTextEditor::Search]
+Replace History=Covers,create_postgres_connection
+Search History=ascii,<feat,$mod+s,Shift+a,autosart,mod+q,exit,cpu mode,audio,CHANGEME,oxi-sapp,ReturnEventScene2,ReturnEventSCene2,genshin,data:image/svg+xml;charset=utf-8\\,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1' height='1' fill='none'%3E%3Cg fill='%23000' opacity='.05'%3E%3Cpath d='M.688.98a.06.06 0 0 0 .07.011L.966.892A.06.06 0 0 0 1 .836V.165A.06.06 0 0 0 .965.108L.759.01a.06.06 0 0 0-.071.012.037.037 0 0 1 .062.026v.906c0 .033-.04.05-.062.026'/%3E%3Cpath d='M.709.706.447.502.709.295V.069A.031.031 0 0 0 .656.046L.292.382.122.251a.04.04 0 0 0-.053.002l-.055.05a.042.042 0 0 0 0 .062l.642.589C.676.972.71.958.71.93zM.143.524l-.13.112a.042.042 0 0 0 0 .062l.056.05A.04.04 0 0 0 .122.75l.15-.11z'/%3E%3Cpath d='m.143.524-.13.112a.042.042 0 0 0 0 .062l.056.05A.04.04 0 0 0 .122.75l.15-.11zM.709.706.122.25a.04.04 0 0 0-.053.002l-.055.05a.042.042 0 0 0 0 .062l.642.589C.676.972.71.958.71.93z'/%3E%3Cpath fill-rule='evenodd' d='M.709.07A.031.031 0 0 0 .656.045L.292.382l.155.12.262-.207z' clip-rule='evenodd'/%3E%3Cpath d='M.759.991A.06.06 0 0 1 .688.98.037.037 0 0 0 .75.953V.047A.037.037 0 0 0 .688.021.06.06 0 0 1 .758.01l.207.1C.986.118 1 .14 1 .164v.671a.06.06 0 0 1-.035.056z'/%3E%3C/g%3E%3C/svg%3E,zsh,hypr,init,main,Music,create_database_connection,redis
+
+[MainWindow]
+1920x1200 screen: Window-Maximized=true
+2 screens: Height=1009
+2 screens: Width=622
+
+[Printing][HeaderFooter]
+FooterBackground=211,211,211
+FooterBackgroundEnabled=false
+FooterEnabled=true
+FooterForeground=0,0,0
+FooterFormatCenter=
+FooterFormatLeft=
+FooterFormatRight=%U
+HeaderBackground=211,211,211
+HeaderBackgroundEnabled=false
+HeaderEnabled=true
+HeaderFooterFont=JetBrainsMono Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+HeaderForeground=0,0,0
+HeaderFormatCenter=%f
+HeaderFormatLeft=%y
+HeaderFormatRight=%p
+
+[Printing][Layout]
+BackgroundColorEnabled=false
+BoxColor=invalid
+BoxEnabled=false
+BoxMargin=6
+BoxWidth=1
+ColorScheme=Printing
+Font=JetBrainsMono Nerd Font,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Printing][Text]
+DontPrintFoldedCode=true
+Legend=false
+LineNumbers=false
+
+[Shortcuts]
+kate_mdi_focus_toolview_diagnostics=none
+kate_mdi_focus_toolview_kate_plugin_katesearch=none
+kate_mdi_focus_toolview_kate_private_plugin_katefiletreeplugin=none
+kate_mdi_focus_toolview_kate_private_plugin_katekonsoleplugin=none
+kate_mdi_focus_toolview_kateproject=none
+kate_mdi_focus_toolview_kateprojectgit=none
+kate_mdi_focus_toolview_kateprojectinfo=none
+kate_mdi_focus_toolview_lspclient_symbol_outline=none
+kate_mdi_focus_toolview_output=none
+kate_mdi_show_toolview_button_diagnostics=none
+kate_mdi_show_toolview_button_kate_plugin_katesearch=none
+kate_mdi_show_toolview_button_kate_private_plugin_katefiletreeplugin=none
+kate_mdi_show_toolview_button_kate_private_plugin_katekonsoleplugin=none
+kate_mdi_show_toolview_button_kateproject=none
+kate_mdi_show_toolview_button_kateprojectgit=none
+kate_mdi_show_toolview_button_kateprojectinfo=none
+kate_mdi_show_toolview_button_lspclient_symbol_outline=none
+kate_mdi_show_toolview_button_output=none
+kate_mdi_toolview_diagnostics=none
+kate_mdi_toolview_kate_plugin_katesearch=none
+kate_mdi_toolview_kate_private_plugin_katefiletreeplugin=none
+kate_mdi_toolview_kate_private_plugin_katekonsoleplugin=none
+kate_mdi_toolview_kateproject=none
+kate_mdi_toolview_kateprojectgit=none
+kate_mdi_toolview_kateprojectinfo=none
+kate_mdi_toolview_lspclient_symbol_outline=none
+kate_mdi_toolview_output=none
+
+[filetree]
+editShade=81,58,130
+listMode=false
+middleClickToClose=false
+shadingEnabled=true
+showCloseButton=false
+showFullPathOnRoots=false
+showToolbar=true
+sortRole=0
+viewShade=126,55,56
+
+[lspclient]
+AllowedServerCommandLines=/usr/bin/pylsp --check-parent-process
+AutoHover=true
+AutoImport=true
+BlockedServerCommandLines=/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled
+CompletionDocumentation=true
+CompletionParens=true
+Diagnostics=true
+FormatOnSave=false
+HighlightGoto=true
+IncrementalSync=false
+InlayHints=false
+Messages=true
+ReferencesDeclaration=true
+SemanticHighlighting=true
+ServerConfiguration=
+SignatureHelp=true
+SymbolDetails=false
+SymbolExpand=true
+SymbolSort=false
+SymbolTree=true
+TypeFormatting=false
