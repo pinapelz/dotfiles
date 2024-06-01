@@ -1,3 +1,6 @@
 [submodule "config/hyde/themes/hyde-themes"]
 	path = config/hyde/themes/hyde-themes
 	url = https://github.com/prasanthrangan/hyde-themes
+[submodule "scripts/wallpaper-hue-sort"]
+	path = scripts/wallpaper-hue-sort
+	url = https://github.com/pinapelz/wallpaper-sorter-hue.git
