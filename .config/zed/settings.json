@@ -7,144 +7,138 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "terminal": {
-    "detect_venv": {
-      "on": {
-        // Default directories to search for virtual environments, relative
-        // to the current working directory. We recommend overriding this
-        // in your project's settings, rather than globally.
-        "directories": [".env", "env", ".venv", "venv"],
-        // Can also be `csh`, `fish`, and `nushell`
-        "activate_script": "default"
-      }
-    }
-  },
-  "language_models": {
-    "ollama": {
-      "api_url": "http://localhost:11434",
-      "available_models": [
-        {
-          "name": "qwen3-coder:latest",
-          "max_tokens": 25000,
-          "supports_tools": true,
-          "supports_images": true
+    "terminal": {
+        "detect_venv": {
+            "on": {
+                // Default directories to search for virtual environments, relative
+                // to the current working directory. We recommend overriding this
+                // in your project's settings, rather than globally.
+                "directories": [".env", "env", ".venv", "venv"],
+                // Can also be `csh`, `fish`, and `nushell`
+                "activate_script": "default"
+            }
         }
-      ]
-    }
-  },
-  "prettier": {
-    "allowed": true
-  },
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
-  "ssh_connections": [
-    {
-      "host": "openlab.ics.uci.edu",
-      "username": "yukais6",
-      "args": [],
-      "projects": [
-        {
-          "paths": [
-            "/home/yukais6/INF141/a2"
-          ]
+    },
+    "language_models": {
+        "ollama": {
+            "api_url": "http://localhost:11434",
+            "available_models": [
+                {
+                    "name": "qwen3-coder:latest",
+                    "max_tokens": 25000,
+                    "supports_tools": true,
+                    "supports_images": true
+                }
+            ]
         }
-      ]
     },
-    {
-      "host": "circinus-19.ics.uci.edu",
-      "username": "yukais6",
-      "args": [],
-      "projects": [
+    "prettier": {
+        "allowed": true
+    },
+    "features": {
+        "edit_prediction_provider": "zed"
+    },
+    "ssh_connections": [
         {
-          "paths": [
-            "/home/yukais6/INF141/a2"
-          ]
-        }
-      ]
-    }
-  ],
-  "show_edit_predictions": false,
-  "languages": {
-    "TypeScript": {
-      "show_edit_predictions": true,
-      "language_servers": ["typescript-language-server", "!vtsls", "..."]
-    },
-    "Rust": {
-      "show_edit_predictions": false,
-    },
-    "TSX": {
-      "show_edit_predictions": true,
-      "language_servers": ["typescript-language-server", "!vtsls", "..."]
-    },
-    "JavaScript": {
-      "show_edit_predictions": true,
-      "language_servers": ["typescript-language-server", "!vtsls", "..."]
-    },
-    "JSON": {
-      "format_on_save": "on",
-      "formatter": "prettier"
-    },
-    "Markdown": {
-      "format_on_save": "off"
-    },
-    "Python": {
-      "show_edit_predictions": false,
-      "language_servers": ["basedpyright"],
-      "formatter": [
-        { "code_action": "source.organizeImports.ruff" },
-        { "code_action": "source.fixAll.ruff" },
-        {
-          "language_server": {
-            "name": "ruff"
-          }
-        }
-      ]
-    }
-  },
-  "format_on_save": "off",
-  "project_panel": {
-    "dock": "right"
-  },
-  "language_servers": ["rust-analyzer"],
-  "agent": {
-    "always_allow_tool_actions": true,
-    "inline_assistant_model": {
-      "provider": "zed.dev",
-      "model": "claude-sonnet-4"
-    },
-    "default_profile": "minimal",
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-opus-4-1-thinking"
-    },
-    "model_parameters": []
-  },
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Catppuccin Mocha"
-  },
-  "base_keymap": "VSCode",
-  "lsp": {
-    "vtsls": {
-      "settings": {
-        "typescript": { "tsserver": { "maxTsServerMemory": 16184 } },
-        "javascript": { "tsserver": { "maxTsServerMemory": 16184 } }
-      }
-    },
-    "basedpyright": {
-      "settings": {
-        "analysis": {
-          "diagnosticMode": "workspace",
-          "typeCheckingMode": "off"
+            "host": "openlab.ics.uci.edu",
+            "username": "yukais6",
+            "args": [],
+            "projects": [
+                {
+                    "paths": ["/home/yukais6/INF141/a2"]
+                }
+            ]
         },
-        "python": {
-          "pythonPath": "venv/bin/python"
+        {
+            "host": "circinus-19.ics.uci.edu",
+            "username": "yukais6",
+            "args": [],
+            "projects": [
+                {
+                    "paths": ["/home/yukais6/INF141/a2"]
+                }
+            ]
         }
-      }
+    ],
+    "show_edit_predictions": false,
+    "languages": {
+        "TypeScript": {
+            "show_edit_predictions": true,
+            "language_servers": ["typescript-language-server", "!vtsls", "..."]
+        },
+        "Rust": {
+            "show_edit_predictions": false
+        },
+        "TSX": {
+            "show_edit_predictions": true,
+            "language_servers": ["typescript-language-server", "!vtsls", "..."]
+        },
+        "JavaScript": {
+            "show_edit_predictions": true,
+            "language_servers": ["typescript-language-server", "!vtsls", "..."]
+        },
+        "JSON": {
+            "format_on_save": "on",
+            "formatter": "prettier"
+        },
+        "Markdown": {
+            "format_on_save": "off"
+        },
+        "Python": {
+            "show_edit_predictions": false,
+            "language_servers": ["basedpyright"],
+            "formatter": [
+                {
+                    "language_server": {
+                        "name": "ruff"
+                    }
+                }
+            ]
+        }
+    },
+    "format_on_save": "off",
+    "project_panel": {
+        "dock": "right"
+    },
+    "language_servers": ["rust-analyzer"],
+    "agent": {
+        "always_allow_tool_actions": true,
+        "inline_assistant_model": {
+            "provider": "zed.dev",
+            "model": "claude-sonnet-4"
+        },
+        "default_profile": "minimal",
+        "default_model": {
+            "provider": "zed.dev",
+            "model": "claude-opus-4-1-thinking"
+        },
+        "model_parameters": []
+    },
+    "ui_font_size": 16,
+    "buffer_font_size": 16,
+    "theme": {
+        "mode": "system",
+        "light": "One Light",
+        "dark": "Catppuccin Mocha"
+    },
+    "base_keymap": "VSCode",
+    "lsp": {
+        "vtsls": {
+            "settings": {
+                "typescript": { "tsserver": { "maxTsServerMemory": 16184 } },
+                "javascript": { "tsserver": { "maxTsServerMemory": 16184 } }
+            }
+        },
+        "basedpyright": {
+            "settings": {
+                "analysis": {
+                    "diagnosticMode": "workspace",
+                    "typeCheckingMode": "off"
+                },
+                "python": {
+                    "pythonPath": "venv/bin/python"
+                }
+            }
+        }
     }
-  }
 }
